@@ -1,0 +1,186 @@
+                        /*=============== Normalize classes =================*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.continer {
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: #2eb1ff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+/** CLEARFIX FOR FLOATS **/
+
+.clearfix::after {
+    content: ".";
+    display: table;
+    clear: both;
+ }
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+                        /*=============== Economy booking================*/
+
+.economy-booking-header{
+    border-bottom: 5px solid #eeeeee;
+}
+
+.eeconomy-booking-content-1{
+    margin-left: -24px;
+    margin-bottom: 21px;
+
+}
+
+.eb-col-1{
+    display: inline-block;
+    float: left;
+}
+
+.eb-col-2{
+    float: left;
+}
+
+.eb-col-3{
+
+}
+
+                        /*===============Bottom footer =================*/
+
+/*--------Top footer phone xD-----------*/
+.top-footer{
+    background-image: url("../img/footer-top-bg.png");
+    height: 604px;
+}
+
+.top-footer-header{
+    padding: 35px 0 15px;
+}
+
+.top-footer-header h1{
+    margin: 0;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 200;
+    line-height: 70px;
+}
+
+.top-footer-header p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 200;
+    padding: 20px 0;
+    line-height: 32px;
+}
+/*--------Middle footer List part------*/
+.middle-footer{
+    background-color: #555555;
+}
+
+
+.footer-nav{
+    margin-top: 10px;
+    float: left;
+}
+
+.footer-nav-list a:first-child{
+    margin: 15px 0;
+    color: #cccccc;
+    font-size: 19px;
+    display: block;
+}
+
+.footer-nav-list a{
+    margin: 8px 0;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+}
+
+.footer-nav-list{
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: text-top;
+    max-width: 180px;
+}
+/*----------Footer socila part-----*/
+.footer-soc-list{
+    margin-top: 10px;
+    float: left;
+}
+
+.footer-soc-list a{
+    color: #c2c2c2;
+    margin: 20px 0 20px;
+    display: block;
+}
+/*--------Email form footer part-------*/
+.email-container{
+    float: right;
+}
+.btn-yell{
+    color:#ffffff;
+    font-size: 16px;
+    background: #f2a622;
+    border-radius: 2px;
+    border: none;
+
+}
+
+/*---------bootom footer-----------*/
+.bottom-footer{
+    background-image: url("../img/bottom-footer-bg.png") ;
+}
+
+.info-col-1 span{
+    display: block;
+    color: #939393;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.info-col-1{
+    float: left;
+    padding: 30px 0;
+}
+/*bottom-footer-col-2 Android Apple*/
+.info-col-2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+/*bottom-footer-col-3 Norton*/
+
+.info-col-3 img{
+    width: 111px;
+    height: 60px;
+    position: relative;
+    bottom: 14px;
+
+}
+
+.info-col-3{
+    float: right;
+}
