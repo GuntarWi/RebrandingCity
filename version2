@@ -1,0 +1,31 @@
+<selection class="economy-booking">
+    <div class="wrapper">
+        <div class="economy-booking-header">
+            <h2>Rent car worldwide with <b>EconomyBookings</b></h2>
+        </div>
+        <div class="eco-booking-content-1 clearfix">
+            <div class="eco-booking-col-1 clearfix">
+                <h3>Why Book with EconomyBookings?</h3>
+                <div class="eco-booking-midel-col-1">
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check fa-lg"></i>A wide selection of cars to choose from</li>
+                        <li><i class="fa-li fa fa-check fa-lg"></i>More than 150 countries and 20,000 locations </li>
+                        <li><i class="fa-li fa fa-check fa-lg"></i>More than 850 trustworthy suppliers worldwide</li>
+                    </ul>
+                </div>
+                <div class="eco-booking-midle-col-2">
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check fa-lg"></i>24/7 multi-lingual customer support</li>
+                        <li><i class="fa-li fa fa-check fa-lg"></i>No credit card or amendment fees</li>
+                        <li><img width="118"src="img/Norton-Secured-Logo.png" alt="Norton-Secured-Logo"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="economy-booking-content-2">
+
+            </div>
+        </div>
+
+    </div>
+
+</selection>

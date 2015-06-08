@@ -1,45 +1,606 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,700,600,800,400'
+          rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/norm.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="libery/font-awesome-4.3.0/css/font-awesome.min.css">
+    <script src="libery/jquery-1.11.3.min.js"></script>
+    <script src="jq/jq.js"></script>
+    <script src="libery/jQuery-Knob-master/dist/jquery.knob.min.js"></script>
+    <script src="libery/v1.2.2/jquery.rateyo.js"></script>
+
+    <link rel="stylesheet" href="libery/v1.2.2/jquery.rateyo.css"/>
+    <script src="libery/v1.2.2/jquery.rateyo.js"></script>
+
+    <link rel="stylesheet" href="libery/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css"/>
+    <script src="libery/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
 </head>
 <body>
     <div class="continer">
+        <header>
+            <div class="content-wrapper">
+                <nav class="header-nav">
+                    <ul class="hn-list">
+                        <li class="logo-container">
+                            <a href=""><img src="img/upper-logo.png"></a>
+                        </li>
+                        <li class="favorites-container">
+                            <a href="">
+                                    <span>
+                                        <i class="fa fa-heart"></i>&nbsp;41,768
+                                    </span>
+                                    <span>
+                                      users love us
+                                    </span>
+                            </a>
+                        </li>
+                        <li class="contacts-container">
+                            <a href="">
+                                    <span class="cc-content-1">
+                                        <span>
+                                            <i class="fa fa-phone fa-lg"></i>&nbsp;(+371) 6-601-0858
+                                        </span>
+                                        <span>
+                                            communication in english
+                                        </span>
+                                    </span>
+                                    <span class="cc-content-2">
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i>
+                                    </span>
+                            </a>
+                        </li>
+                        <li class="lang-container">
+                            <a href="">EN&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+                            <div id="drop-test-2" class="hid">
+                                <ul>
+                                    <li>TEST Country 1</li>
+                                    <li>TEST Country 2</li>
+                                    <li>TEST Country 3</li>
+                                    <li>TEST Country 4</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="currency-container">
+                            <a class="drop" href="">€&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+                        </li>
+                        <li class="mybooking-container">
+                            <a class="drop" href="">My Booking&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"
+                            style="display:inline"></i></a>
+                            <div id="drop-test-1" class="hid">
+                        <ul>
+                            <li>TEST Country 1</li>
+                            <li>TEST Country 2</li>
+                            <li>TEST Country 3</li>
+                            <li>TEST Country 4</li>
+                        </ul>
+                        <ul>
+                            <li>TEST Country 5</li>
+                            <li>TEST Country 6</li>
+                            <li>TEST Country 7</li>
+                            <li>TEST Country 8</li>
+                        </ul>
+                    </div>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="main-header-selection">
+            <div class="wrapper">
+                <div class="main-header-heading">
+                    <h1>Rent car with AVIS</h1>
+
+                    <div class="knob">
+                    <input
+                            data-min="1"
+                            data-max="10"
+                            data-displayPrevious=true type="text" value="8.9" class="dial"
+                            data-thickness=".1"
+                            data-readOnly=true
+                            data-width="70"
+                            data-fgColor="#ffffff"
+                            data-bgColor="#C0C0C0"
+                            >
+                    </div>
+                    <h1>in Milan</h1>
+                    <h3>Millions of people set off on vacation every day.<br>We help them pick up their flights and
+                        accommodation cheaply, easily and fast.</h3>
+                </div>
+                <div class="main-header-list row">
+                    <ul>
+                        <li>Collision Damage Waiver</li>
+                        <li>Theft Protection</li>
+                    </ul>
+                    <ul>
+                        <li>Local taxes</li>
+                        <li>Premium Location Fee</li>
+                    </ul><ul>
+                    <li>Unlimited mileage</li>
+                    <li>Road Fund Tax (RFT)</li>
+                </ul>
+
+                    <ul>
+                        <li>Third Party Liability Insurance</li>
+                        <li>24 Hour Road Assistance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="slider-menu">
+            <div class="content-wrapper">
+                <div class="sm-header">
+                    <h4>Hot deals in Milan from AVIS</h4>
+                </div>
+                <div class="carusel-continer">
+                    <div class="owl-carousel">
+                        <div>
+                            <div class="owl-c-col">
+                                <h4>Audi</h4>
+                                <img  src="img/audi.png" alt=""/>
+                                <div class="btn-blu">hellow</div>
+                            </div>
+
+                        </div>
+                        <div><img src="img/corvet.png" alt=""/> </div>
+                        <div> <img src="img/skoda.png" alt=""/></div>
+                        <div> <img src="img/vuazik.png" alt=""/> </div>
+                        <div> <img src="img/audi%202.png" alt=""/> </div>
+
+                    </div>
+                </div>
+                <div class="sm-toplocations">
+                    <h4>Top locations in Milan</h4>
+                    <ul class="top-location-list">
+                        <li><a href="">Milan Malpensa Airport (MXP)</a></li>
+                        <li><a href="">Airport Bergamo</a></li>
+                        <li><a href="">Airport Linate</a></li>
+                        <li><a href="">Downtown</a></li>
+                        <li><a href="">Milan Exhibition Center</a></li>
+                        <li><a href="">Largo Augusto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <selection class="customer-ratings">
+            <div class="wrapper">
+                <div class="customer-ratings-heading clearfix">
+                    <div class="customer-ratings-heading-text">
+                        <h2>AVIS Customer Ratings in <a href="">Milan</a></h2>
+                        <a href=""><img src="img/AVIS-logo.png"></a>
+                    </div>
+                    <div class="cr-heading-logo">
+
+                    </div>
+                </div>
+                <div class="customer-ratings-content clearfix">
+                    <div class="customer-ratings-left-col">
+                        <div class="cr-score-total">
+                            <div class="knob">
+                                <input
+                                        data-min="1"
+                                        data-max="10"
+                                        data-displayPrevious=true type="text" value="8.3" class="dial"
+                                        data-thickness=".1"
+                                        data-readOnly=true
+                                        data-width="100"
+                                        data-fgColor="#0077B6"
+                                        data-bgColor="#ffffff"
+                                        >
+                            </div>
+                            <div class="cr-rating-value">Excellent</div>
+                            <div class="cr-rating-count"><a href="">150+ reviews</a></div>
+                        </div>
+                    </div>
+                    <div class="customer-ratings-left-col-details">
+                        <dl class="cr-question clearfix">
+                            <dt>Overall value for money of your car rental</dt>
+                            <dd>8.3</dd>
+                        </dl>
+                        <dl class="cr-question clearfix">
+                            <dt>How easy was it to find pickup location?</dt>
+                            <dd>8.2</dd>
+                        </dl>
+                        <dl class="cr-question clearfix">
+                            <dt>Work efficiency of the car rental agents</dt>
+                            <dd>8.4</dd>
+                        </dl>
+                        <dl class="cr-question clearfix">
+                            <dt>Time spent picking up the car</dt>
+                            <dd>8.5</dd>
+                        </dl>
+                        <dl class="cr-question clearfix">
+                            <dt>ime spent dropping off the car</dt>
+                            <dd>7.9</dd>
+                        </dl>
+                        <dl class="cr-question clearfix">
+                            <dt>Car cleanliness</dt>
+                            <dd>7.6</dd>
+                        </dl>
+                        <dl class="cr-question clearfix">
+                            <dt>Overall condition of the car</dt>
+                            <dd>7.8</dd>
+                        </dl>
+                    </div>
+                    <div class="customer-ratings-reviews">
+
+                        <table class="cr-review-block">
+                            <tbody><tr class="cr-review-row-1">
+                                <td class="cr-review-person-info clearfix" colspan="2">
+                                        <span class="cr-review-giver-name">
+                                            Lelde
+                                        </span>
+                                    <span class="flag-icon flag-icon-lv"></span>
+                                        <span class="cr-review-location">
+                                           Latvia
+                                        </span>
+                                        <span class="cr-review-date">
+                                           —  August 18, 2014
+                                        </span>
+                                        <span class="cr-review-giver-score">
+                                           Perfect <span class="cr-review-giver-score-number">8.3</span>
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr class="cr-review-row-2">
+                                <td class="cr-review-plus">
+                                    Perfect location. Easy to reach from airport TXL (TXL bus). Very convenient for shopping purposes, all popular shops are near- Primark, C&amp;A,Galeria Kaufhof, Alexa... Breakfast is very plentiful.
+                                </td>
+                                <td class="cr-review-minus">
+                                    Quadruaple room was very small.
+                                </td>
+                            </tr>
+                            </tbody></table>
+
+                        <table class="cr-review-block">
+                            <tbody><tr class="cr-review-row-1">
+                                <td class="cr-review-person-info clearfix" colspan="2">
+                                        <span class="cr-review-giver-name">
+                                            Maris
+                                        </span>
+                                    <span class="flag-icon flag-icon-lv"></span>
+                                        <span class="cr-review-location">
+                                           Latvia
+                                        </span>
+                                        <span class="cr-review-date">
+                                           —  June 22, 2014
+                                        </span>
+                                        <span class="cr-review-giver-score">
+                                           Very Good <span class="cr-review-giver-score-number">7.8</span>
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr class="cr-review-row-2">
+                                <td class="cr-review-plus">
+                                    The location is excellent: 5 minutes walking from the Alexanderplatz station The breakfast is very good and the room is very comfortable and exactly as in the photos.
+                                </td>
+                                <td class="cr-review-minus">
+                                    I arrived very late at the hotel (11pm) and the room service woke me up at 8:30am after the first night. When I arrived at the hotel on the third night, the window was… Read more
+                                </td>
+                            </tr>
+                            </tbody></table>
+
+                        <table class="cr-review-block">
+                            <tbody><tr class="cr-review-row-1">
+                                <td class="cr-review-person-info clearfix" colspan="2">
+                                        <span class="cr-review-giver-name">
+                                            Joana
+                                        </span>
+                                    <span class="flag-icon flag-icon-pt"></span>
+                                        <span class="cr-review-location">
+                                           Portugal
+                                        </span>
+                                        <span class="cr-review-date">
+                                           —  June 22, 2014
+                                        </span>
+                                        <span class="cr-review-giver-score">
+                                           Exceptional <span class="cr-review-giver-score-number">10</span>
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr class="cr-review-row-2">
+                                <td class="cr-review-plus">
+                                    I did like everything about this Hotel.
+                                </td>
+                                <td class="cr-review-minus">
+                                    I did like everything about this Hotel.
+                                </td>
+                            </tr>
+                            </tbody></table>
+
+                        <table class="cr-review-block">
+                            <tbody><tr class="cr-review-row-1">
+                                <td class="cr-review-person-info clearfix" colspan="2">
+                                        <span class="cr-review-giver-name">
+                                            Maria
+                                        </span>
+                                    <span class="flag-icon flag-icon-bq"></span>
+                                        <span class="cr-review-location">
+                                           Netherlands
+                                        </span>
+                                        <span class="cr-review-date">
+                                           —  December 2, 2014
+                                        </span>
+                                        <span class="cr-review-giver-score">
+                                           Awesome <span class="cr-review-giver-score-number">9.0</span>
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr class="cr-review-row-2">
+                                <td class="cr-review-plus">
+                                    The location is excellent: 5 minutes walking from the Alexanderplatz station The breakfast is very good and the room is very comfortable and exactly as in the photos.
+                                </td>
+                                <td class="cr-review-minus">
+                                    Almost non-existent wifi, uncomfortable room
+                                </td>
+                            </tr>
+                            </tbody></table>
+
+                        <table class="cr-review-block">
+                            <tbody><tr class="cr-review-row-1">
+                                <td class="cr-review-person-info clearfix" colspan="2">
+                                        <span class="cr-review-giver-name">
+                                            Bernadette
+                                        </span>
+                                    <span class="flag-icon flag-icon-bq"></span>
+                                        <span class="cr-review-location">
+                                           Netherlands
+                                        </span>
+                                        <span class="cr-review-date">
+                                           —  December 2, 2014
+                                        </span>
+                                        <span class="cr-review-giver-score">
+                                           Exceptional <span class="cr-review-giver-score-number">9.8</span>
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr class="cr-review-row-2 clearfix">
+                                <td class="cr-review-plus">
+                                    The location is excellent: 5 minutes walking from the Alexanderplatz station The breakfast is very good and the room is very comfortable and exactly as in the photos.
+                                </td>
+                                <td class="cr-review-minus">
+                                    Nothing
+                                </td>
+                            </tr>
+                            </tbody></table>
+                        <table class="cr-review-block">
+                            <tbody><tr class="cr-review-row-3">
+                                <td class="cr-reviews-more">
+                                        <span>
+                                            <a href=""><i class="fa fa-angle-double-right"></i> All reviews about AVIS rental service in Milan</a>
+                                        </span>
+                                </td>
+                            </tr>
+                            </tbody></table>
+                    </div>
+                </div>
+
+            </div>
+        </selection>
+        <selection class="in-other-cities clearfix">
+            <div class="wrapper">
+                <div class="in-other-cities-header">
+                    <h2>AVIS in other cities of Italy</h2>
+                </div>
+                <div class="imc-row">
+                    <ul class="">
+                        <li><a href="">AVIS Car Rentals in <span>Rome</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Milan</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Venice</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Rome</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Milan</span></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">AVIS Car Rentals in <span>Rome</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Milan</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Venice</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Rome</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Milan</span></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">AVIS Car Rentals in <span>Rome</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Milan</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Venice</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Rome</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Milan</span></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">AVIS Car Rentals in <span>Rome</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Milan</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Venice</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Rome</span></a></li>
+                        <li><a href="">AVIS Car Rentals in <span>Milan</span></a></li>
+                    </ul>
+                </div>
+                <div class="imc-bottom">
+                        <span>
+                            <a href=""><i class="fa fa-angle-double-right"></i> All cities in Italy where AVIS works</a>
+                        </span>
+                </div>
+            </div>
+        </selection>
+        <selection class="reiting-bar">
+            <div class="wrapper">
+                <div class="reiting-bar-content">
+                    <h4>OTHER TOP CAR RENTAL SUPPLIERS IN MILAN</h4>
+                    <div class="reiting-bar-links">
+                        <div class="knob2">
+                            <input
+                                    data-min="1"
+                                    data-max="10"
+                                    data-displayPrevious=true type="text" value="8.3" class="dial"
+                                    data-thickness="0.1"
+                                    data-readOnly=true
+                                    data-width="95"
+                                    data-fgColor="#1173BA"
+                                    data-bgColor="#ffffff"
+                                    >
+                        </div>
+                        <img src="img/hertz.png">
+                    </div>
+                    <div class="reiting-bar-links">
+                        <div class="knob2">
+                            <input
+                                    data-min="1"
+                                    data-max="10"
+                                    data-displayPrevious=true type="text" value="9" class="dial"
+                                    data-thickness=".1"
+                                    data-readOnly=true
+                                    data-width="95"
+                                    data-fgColor="#1173BA"
+                                    data-bgColor="#ffffff"
+                                    >
+                        </div>
+                        <a href=""><img src="img/alamo.png"></a>
+                    </div>
+                    <div class="reiting-bar-links">
+                        <div class="knob2">
+                            <input
+                                    data-min="1"
+                                    data-max="10"
+                                    data-displayPrevious=true type="text" value="6.7" class="dial"
+                                    data-thickness="0.1"
+                                    data-readOnly=true
+                                    data-width="95"
+                                    data-fgColor="#1173BA"
+                                    data-bgColor="#ffffff"
+                                    >
+                        </div>
+                        <a href=""><img src="img/enterprise.png"></a>
+                    </div>
+                    <div class="reiting-bar-links">
+                        <div class="knob2">
+                            <input
+                                    data-min="1"
+                                    data-max="10"
+                                    data-displayPrevious=true type="text" value="8.3" class="dial"
+                                    data-thickness="0.1"
+                                    data-readOnly=true
+                                    data-width="95"
+                                    data-fgColor="#1173BA"
+                                    data-bgColor="#ffffff"
+                                    >
+                        </div>
+                        <a href=""><img src="img/europcar.png"></a>
+                    </div>
+                    <div class="reiting-bar-links">
+                        <div class="knob2">
+                            <input
+                                    data-min="1"
+                                    data-max="10"
+                                    data-displayPrevious=true type="text" value="10" class="dial"
+                                    data-thickness="0.1"
+                                    data-readOnly=true
+                                    data-width="95"
+                                    data-fgColor="#1173BA"
+                                    data-bgColor="#ffffff"
+                                    >
+                        </div>
+                        <a href=""><img src="img/budget.png"></a>
+                    </div>
+                    <div class="reiting-bar-links">
+                        <div class="knob2">
+                            <input
+                                    data-min="1"
+                                    data-max="10"
+                                    data-displayPrevious=true type="text" value="7.7" class="dial"
+                                    data-thickness="0.1"
+                                    data-readOnly=true
+                                    data-width="95"
+                                    data-fgColor="#1173BA"
+                                    data-bgColor="#ffffff"
+                                    >
+                        </div>
+                        <a href=""><img src="img/enterprise.png"></a>
+                    </div>
+                    <div class="reiting-bar-links">
+                        <div class="knob2">
+                            <input
+                                    data-min="1"
+                                    data-max="10"
+                                    data-displayPrevious=true type="text" value="9.3" class="dial"
+                                    data-thickness="0.1"
+                                    data-readOnly=true
+                                    data-width="95"
+                                    data-fgColor="#1173BA"
+                                    data-bgColor="#ffffff"
+                                    >
+                        </div>
+                        <a href=""><img src="img/national.png"></a>
+                    </div>
+                </div>
+            </div>
+        </selection>
         <selection class="economy-booking">
             <div class="wrapper">
-                <div class="economy-booking-header">
-                    <h1>Rent car worldwide with <b>EconomyBookings</b></h1>
-                </div>
                 <div class="economy-booking-content-1">
-                    <h3>Why Book with EconomyBookings?</h3>
-                    <div class="eb-col-1">
-                        <ul class="fa-ul">
-                            <li><i class="fa-li fa fa-check fa-lg"></i>A wide selection of cars to choose from</li>
-                            <li><i class="fa-li fa fa-check fa-lg"></i>More than 150 countries and 20,000 locations </li>
-                            <li><i class="fa-li fa fa-check fa-lg"></i>More than 850 trustworthy suppliers worldwide</li>
-                        </ul>
+                    <h2>Rent car worldwide with <b>EconomyBookings</b></h2>
+                </div>
+                <div class="economy-booking-content-2 clearfix">
+                    <div class="economy-booking-col-1 clearfix">
+                        <h3>Why Book with EconomyBookings?</h3>
+                        <div class="economy-booking-inner-col-1">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-check fa-lg"></i>A wide selection of cars to choose from</li>
+                                <li><i class="fa-li fa fa-check fa-lg"></i>More than 150 countries and 20,000 locations </li>
+                                <li><i class="fa-li fa fa-check fa-lg"></i>More than 850 trustworthy suppliers worldwide</li>
+                            </ul>
+                        </div>
+                        <div class="economy-booking-inner-col-2">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-check fa-lg"></i>24/7 multi-lingual customer support</li>
+                                <li><i class="fa-li fa fa-check fa-lg"></i>No credit card or amendment fees</li>
+                                <li><img width="118" src="img/norton.png" alt="Norton-Secured-Logo"></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="eb-col-2">
-                        <ul class="fa-ul">
-                            <li><i class="fa-li fa fa-check fa-lg"></i>24/7 multi-lingual customer support</li>
-                            <li><i class="fa-li fa fa-check fa-lg"></i>No credit card or amendment fees</li>
-                            <li><img width="118"  src="img/norton.png" alt="Norton-Secured-Logo"></li>
-                        </ul>
+                    <div class="economy-booking-col-2">
+                        <div class="economy-booking-inner-col-3">
+                            <div class="economy-booking-inner-row-1 clearfix">
+                                <h6>Joanna</h6>
+                                <div id="rateYo"></div>
+                                <div class="economy-booking-inner-row-2">
+                                    <p>
+                                        I rented with Economybooking(car rental company SIXT)s in Alicante in September and found the service and quality of car to be absolutely fantastic. One of my best experiences with a large company ever!
+                                    </p>
+                                </div>
+                                <div class="economy-booking-inner-row-3 clearfix">
+                                    <a href="">Read more</a>
+                                    <img src="img/review-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="eb-col-3">
-                        <h6>Joanna</h6>
-                        <p>
-                            I rented with Economybooking(car rental company SIXT)s in Alicante in September and found
-                            the service and quality of car to be absolutely fantastic. One of my best experiences with
-                            a large company ever!
-                        </p>
-                        <a href="">Read more</a>
-                        <img src="img/review-logo.png" alt="">
+
+
+                </div>
+                <div class="economy-booking-content-3 clearfix">
+                    <div class="economy-booking-col-3">
+                        <h4>Do you have any questions?</h4>
+                        <p>Try to find answer in <a href="">our FAQ</a> first</p>
+                        <button class="btn-blu">Ask question</button>
+                        <a href="#" style="display: block;">our contact us by email</a>
+                    </div>
+                    <div class="economy-booking-col-3">
+                        <h4>You can book car by phone</h4>
+                        <h2>(+371) 6-601-0858</h2>
+                        <p>We are social</p>
+                        <a href=""><i class="fa-2x fa fa-facebook"></i></a>
+                        <a href=""><i class="fa-2x fa fa-youtube"></i></a>
+                        <a href=""><i class="fa-2x fa fa-google-plus"></i></a>
+                    </div>
+                    <div class="economy-booking-col-3">
+                        <h4>Stay tuned</h4>
+                        <p>Subscribe to our latest news and offers</p>
+                        <form action="POST">
+                            <input type="email" name="email-submit" placeholder="Your email"><br>
+                            <input class="btn-blu" type="submit" value="Subscribe">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -111,7 +672,7 @@
                         <h5>Subscribe to our best deals</h5>
                         <p>Car hire at best price.<br>Subscribe to our Exclusive Offers.</p>
                         <form>
-                            <input type="email" name="email-submit" placeholder="Your email"><br>
+                            <input class="e-mail" type="email" name="email-submit" placeholder="Your email"><br>
                             <input class="btn-yell" type="submit" value="Subscribe">
                         </form>
                     </div>
@@ -144,5 +705,44 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        $(function () {
+
+            $(function () {
+
+                $("#rateYo").rateYo({
+                    starWidth: "15px"
+                });
+
+            });
+
+
+
+        });
+    </script>
+
+
+    <script>
+        $(function() {
+            $(".dial").knob();
+        }); </script>
+
+    <!-- Set up your HTML -->
+
+
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+
+        });
+
+
+    </script>
+
+
+
+
 </body>
 </html>
